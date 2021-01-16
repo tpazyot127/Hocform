@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự án web tin tức</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="wrap">  
+            <figure>
+                <img src="uploads/logo.png" alt="logo image">
+            </figure>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Định cư</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </nav>
+        <div class="clear"></div>
+    <section class="Title">
+        <div class="main-title">
+            <h2>THÔNG TIN ĐĂNG KÝ</h2>
+            <p>Nhập các thông tin quan trọng sau để đăng ký mở tài khoản và dùng để xác thực các giao dịch của Quý khách trong tương lai.</p>
+            <p>Hotline hỗ trợ đăng ký mở tài khoản 0379,075,256</p>
+        </div>
+    <form action="tuananh.php">   
+        <div>
+            <h2>Mở tài khoản cho *</h2>
+            <form>
+                <input type="radio" id="personal" name="classify" value="personal">
+                <label for="personal">cá nhân</label><br>
+                <input type="radio" id="enterprise" name="classify" value="enterprise">
+                <label for="enterprise">doanh nghiệp</label><br>
+            </form>
+        </div>
+    </section>
+        <div class="clear"></div>
+        <div class="information-1">
+            <form>
+                <label for="Full name">Họ tên</label><br>
+                <input type="text" name="Full-name" id="Full-name">
+            </form>         
+            <form>
+                <label for="Birth">Ngày sinh</label><br>
+                <input type="date" name="Birth" id="Birth">
+            </form>
+        </div>
+        <div class="gender">
+            <form>
+                <form action="">
+                    <input type="radio" id="Male" name="gender" value="Male">
+                    <label for="male">Nam</label><br>
+                    <input type="radio" id="Female" name="gender" value="Female">
+                    <label for="female">Nữ</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Khác</label><br><br>
+            </form>
+        </div>
+        <div class="clear"></div>
+        <div class="information-2">
+            <form>
+                <label for="ID-information">CMTND / CCCD*</label><br>
+                <input type="text" name="ID-information" id="ID-information">
+            </form>
+            <form>
+                <label for="Date-information">Ngày cấp*</label><br>
+                <input type="date" name="Date-information" id="Date-information">
+            </form>   
+            <form>
+                <label for="Place-information">Nơi Cấp*</label><br>
+                <input type="text" name="Place-information" id="Place-information">
+            </form>         
+        </div>
+        <div class="clear"></div>
+        <div>
+            <form>
+                <label for="Phone-information">số điện thoại*</label><br>
+                <input type="text" name="Phone-information" id="Phone-information">
+            </form>
+            <form>
+                <label for="Email-information">E-mail*</label><br>
+                <input type="text" name="Email-information" id="Email-information">
+            </form>
+        </div>
+        <div class="clear"></div>
+        <div class="Location">
+            <form>
+                <label for="Location-information">Địa chỉ*</label><br>
+                <input type="text" name="Location-information" id="Location-information">
+            </form>
+        </div>
+        <div class="clear"></div>
+        <div class="Bank">
+            <form>
+                <label for="Anumber-information">số TK ngân hàng*</label><br>
+                <input type="text" name="Anumber-information" id="Anumber-information">
+            </form>
+            <form>
+                <label for="Aopen-information">mở tại ngân hàng*</label><br>
+                <input type="text" name="Aopen-information" id="Aopen-information">
+            </form>
+            <form>
+                <label for="Aopenlocation-information">Địa chỉ*</label><br>
+                <input type="text" name="Aopen-information" id="Aopen-information">
+            </form>
+        </div>
+        <div class="clear"></div>
+        <div class="referrer-infor">
+            <form>
+                <label for="Referrer-information">Thông tin người giới thiệu(email / số tài khoản tại Tinh Hoa Đầu Tư ) *</label><br>
+                <input type="text" name="Referrer-information" id="Referrer-information">
+            </form>
+        </div>
+        <div>
+            <input type="submit" value="Yêu cầu mở tài khoản">
+        </div>         
+    </form>     
+
+        
