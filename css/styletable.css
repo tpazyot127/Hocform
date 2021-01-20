@@ -4,9 +4,8 @@
 .students-table table caption {
     text-align: center;
     text-transform: uppercase;
-    color: greenyellow
+    color: black
 }
-
 
 .students-table table tr:hover{
     background-color: #ddd; 
