@@ -1,0 +1,33 @@
+.students-table {
+
+}
+.students-table table tr:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+.students-table table thead th {
+    text-transform: uppercase;
+    background-color:yellow;
+
+}
+.students-table table, th, td {
+    border:1px solid black;
+    height: 30px;
+    vertical-align:center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+.students-table table th {
+    text-align: center;
+
+}
+.students-table table td {
+    text-align: left;
+    padding: 15px
+    text-transfrom:
+
+
+}
+    
+    
+    
