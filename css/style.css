@@ -12,3 +12,16 @@
     box-sizing: border-box;
 }
 
+/*Main iput type*/
+.Title {
+
+}
+.Title .main-title {
+    text-align: center;
+    text-transform: uppercase;
+    width:60%
+}
+.Title .main-title p {
+    text-align: left;
+    
+}
